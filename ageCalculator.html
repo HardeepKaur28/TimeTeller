@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTeller</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>TimeTeller</h2>
+        <div class="image">
+            <img src="./images//user.jpg" alt="life">
+        </div>
+
+        <div class="date-container">
+            <label for="birthDate">Date of Birth</label>
+            <input type="date" id="birthDate" required>
+        </div>
+    
+        <div class="date-container">
+            <label for="currentDate">Current Date</label>
+            <input type="date" name="currentDate" id="currentDate" required>
+        </div>
+
+        <input type="button" value="Calculate" id="calculateBtn">
+
+        <div>
+            <p id="output"></p>
+            <p id="thanks"></p>
+        </div>
+        
+        <div class="stats">
+            <p id="years"></p>
+            <p id="months"></p>
+            <p id="days"></p>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
